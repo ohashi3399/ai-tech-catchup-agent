@@ -64,7 +64,7 @@ jobs:
         env:
           MODEL_NAME: ${{ vars.MODEL_NAME }}
           ENABLED_MCP_SERVERS: ${{ vars.ENABLED_MCP_SERVERS }}
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.CLAUDE_CODE_OAUTH_TOKEN }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GITHUB_REPOSITORY: ${{ github.repository }}
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
